@@ -1,419 +1,623 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fornji Bakery - Delicious Sweets and Pastries</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fornji Bakery - Delicious Sweets and Pastries</title>
 
-  <link rel="icon"
-  href="https://raw.githubusercontent.com/Mortis-Web/fornji-bakery/refs/heads/main/images/logo.png?token=GHSAT0AAAAAADG5KNFKQUNQJAAQQSRYHS5Y2HNPXEA"
-    type="image/x-icon" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/Mortis-Web/fornji-bakery/refs/heads/main/images/logo.png?token=GHSAT0AAAAAADG5KNFKQUNQJAAQQSRYHS5Y2HNPXEA"
+      type="image/x-icon"
+    />
 
-  <!-- Open Graph (Facebook / LinkedIn) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="Fornji Bakery - Delicious Sweets and Pastries" />
-  <meta property="og:image" content="./assets/logo.png" />
-  <meta property="og:description"
-    content="Enjoy the most delicious sweets and fresh pastries from Fornji Bakery. High quality, unique taste, and original baked goods magic." />
+    <!-- Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      property="og:title"
+      content="Fornji Bakery - Delicious Sweets and Pastries"
+    />
+    <meta property="og:image" content="./assets/logo.png" />
+    <meta
+      property="og:description"
+      content="Enjoy the most delicious sweets and fresh pastries from Fornji Bakery. High quality, unique taste, and original baked goods magic."
+    />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Fornji Bakery - Delicious Sweets and Pastries" />
-  <meta name="twitter:image" content="./assets/logo.png" />
-  <meta name="twitter:description"
-    content="Irresistible flavors from Fornji Bakery — sweets and pastries you'll love from the first bite!" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Fornji Bakery - Delicious Sweets and Pastries"
+    />
+    <meta name="twitter:image" content="./assets/logo.png" />
+    <meta
+      name="twitter:description"
+      content="Irresistible flavors from Fornji Bakery — sweets and pastries you'll love from the first bite!"
+    />
 
-  <!-- CSS Libraries -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <!-- CSS Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
 
-  <!-- Project Styles -->
-  <link rel="stylesheet" href="../css/reset.css" />
-  <link rel="stylesheet" href="../css/style.css" />
-</head>
+    <!-- Project Styles -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-<body>
-  <main>
-    <nav data-aos="fade-down" data-aos-delay="300">
-      <div class="container">
-        <a href="./index.html"><img src="../images/logo.png" alt="logo" class="logo" /></a>
-        <ul>
-          <span class="main_Links">
-            <li class="active navLink">
-              <a href="./index.html">
-                Home
-              </a>
-            </li>
+  <body>
+    <main>
+      <nav data-aos="fade-down" data-aos-delay="300">
+        <div class="container">
+          <a href="./index.html"
+            ><img src="../images/logo.png" alt="logo" class="logo"
+          /></a>
+          <ul>
+            <span class="main_Links">
+              <li class="active navLink">
+                <a href="./index.html"> Home </a>
+              </li>
 
-            <li class="navLink">
-              <a href="./pages/about.html">
-                About Us
-              </a>
-            </li>
-            <li class="navLink" id="servicesHolder">
-              <a href="./pages/services.html">
-                Services
-              </a>
-            </li>
-            <li class="navLink">
-              <a href="./pages/machines.html">
-                Products
-              </a>
-            </li>
-            <li class="navLink">
-              <a href="./pages/advice.html">
-                Fornji Catalog
-              </a>
-            </li>
-            <li class="navLink">
-              <a href="./pages/advice.html">
-                Contact Us
-              </a>
-            </li>
-          </span>
-        </ul>
-        <ul>
-          <li id="lang">
-            <div id="lang_changer" class="hide_lang_changer">
-              <a href="./index.html" class="langs">English
-                <img src="../images/usa.png" alt="USA" class="en" /></a>
-              <a href="../index.html" class="langs">Arabic
-                <span><img src="../images/jordan.png" alt="ar" /></span></a>
-            </div>
-
-            <span>
-              <span id="active_lang"><img src="../images/usa.png" alt="jordan"> English <svg width="10" height="15"
-                  viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M9.18164 2.56055L4.24219 7.5L9.18164 12.4395L7.06055 14.5605L0 7.5L7.06055 0.439453L9.18164 2.56055Z"
-                    fill="white" />
-                </svg>
-              </span>
+              <li class="navLink">
+                <a href="./pages/about.html"> About Us </a>
+              </li>
+              <li class="navLink" id="servicesHolder">
+                <a href="./pages/services.html"> Services </a>
+              </li>
+              <li class="navLink">
+                <a href="./pages/machines.html"> Products </a>
+              </li>
+              <li class="navLink">
+                <a href="./pages/advice.html"> Fornji Catalog </a>
+              </li>
+              <li class="navLink">
+                <a href="./pages/advice.html"> Contact Us </a>
+              </li>
             </span>
-          </li>
-          <li id="menu">
-            <i class="fa-solid fa-bars"></i>
-          </li>
-        </ul>
-      </div>
-      <div id="navigation_dropdown">
-        <ul class="container">
-          <span class="main_Links">
-            <li class="active navLink">
-              <a href="./index.html">
-                Home
-              </a>
+          </ul>
+          <ul>
+            <li id="lang">
+              <div id="lang_changer" class="hide_lang_changer">
+                <a href="./index.html" class="langs"
+                  >English <img src="../images/usa.png" alt="USA" class="en"
+                /></a>
+                <a href="../index.html" class="langs"
+                  >Arabic
+                  <span><img src="../images/jordan.png" alt="ar" /></span
+                ></a>
+              </div>
+
+              <span>
+                <span id="active_lang"
+                  ><img src="../images/usa.png" alt="jordan" /> English
+                  <svg
+                    width="10"
+                    height="15"
+                    viewBox="0 0 10 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.18164 2.56055L4.24219 7.5L9.18164 12.4395L7.06055 14.5605L0 7.5L7.06055 0.439453L9.18164 2.56055Z"
+                      fill="white"
+                    />
+                  </svg>
+                </span>
+              </span>
             </li>
-
-            <li class="navLink">
-              <a href="./pages/about.html">
-                About Us
-              </a>
+            <li id="menu">
+              <i class="fa-solid fa-bars"></i>
             </li>
+          </ul>
+        </div>
+        <div id="navigation_dropdown">
+          <ul class="container">
+            <span class="main_Links">
+              <li class="active navLink">
+                <a href="./index.html"> Home </a>
+              </li>
 
-            <li class="navLink" id="menuDropDownHolder">
-              <a href="./pages/services.html">
-                Products
-              </a>
-            </li>
-            <li class="navLink">
-              <a href="./pages/machines.html">
-                Fornji Catalog
-              </a>
-            </li>
-            <li class="navLink">
-              <a href="./pages/advice.html">
-                Contact Us
-              </a>
-            </li>
-          </span>
-        </ul>
-      </div>
-    </nav>
+              <li class="navLink">
+                <a href="./pages/about.html"> About Us </a>
+              </li>
 
-    <header>
-      <div class="heroOverlay"><img src="../images/heroImg.png" alt="hero image" data-aos="fade-up" data-aos-delay="200"></div>
-    </header>
-   <section class="categories">
-  <h2 class="intro" data-aos="fade-up" data-aos-delay="300">Our Categories</h2>
+              <li class="navLink" id="menuDropDownHolder">
+                <a href="./pages/services.html"> Products </a>
+              </li>
+              <li class="navLink">
+                <a href="./pages/machines.html"> Fornji Catalog </a>
+              </li>
+              <li class="navLink">
+                <a href="./pages/advice.html"> Contact Us </a>
+              </li>
+            </span>
+          </ul>
+        </div>
+      </nav>
 
-  <div class="container swiper categorySwiper">
-    <div class="swiper-wrapper">
-      <!-- Slide 1 -->
-      <article class="swiper-slide">
-        <img src="../images/product1.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
-        <h3 class="CategoryName">category 1</h3>
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+      <header>
+        <div class="heroOverlay">
+          <img
+            src="../images/heroImg.png"
+            alt="hero image"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          />
+        </div>
+      </header>
+      <section class="categories">
+        <h2 class="intro" data-aos="fade-up" data-aos-delay="300">
+          Our Categories
+        </h2>
 
-      <!-- Slide 2 -->
-      <article class="swiper-slide">
-        <img src="../images/product2.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
-        <h3 class="CategoryName">category 2</h3>
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+        <div class="container swiper categorySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+             <article class="swiper-slide">
+              <img
+                src="../images/heroImg.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
+              <h3 class="CategoryName">category</h3>
+              <a href="#" class="contact"
+                >Browse Products <i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
+            <article class="swiper-slide">
+              <img
+                src="../images/product1.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
+              <h3 class="CategoryName">category 1</h3>
+              <a href="#" class="contact"
+                >Browse Products <i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-      <!-- Slide 3 -->
-      <article class="swiper-slide">
-        <img src="../images/product3.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
-        <h3 class="CategoryName">category 3</h3>
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+            <!-- Slide 2 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product2.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
+              <h3 class="CategoryName">category 2</h3>
+              <a href="#" class="contact"
+                >Browse Products <i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-      <!-- Slide 4 -->
-      <article class="swiper-slide">
-        <img src="../images/product4.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
-        <h3 class="CategoryName">category 4</h3>
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+            <!-- Slide 3 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product3.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
+              <h3 class="CategoryName">category 3</h3>
+              <a href="#" class="contact"
+                >Browse Products <i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-      <!-- Slide 5 -->
-      <article class="swiper-slide">
-        <img src="../images/product5.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
-        <h3 class="CategoryName">category 5</h3>
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+            <!-- Slide 4 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product4.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
+              <h3 class="CategoryName">category 4</h3>
+              <a href="#" class="contact"
+                >Browse Products <i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-      <!-- Slide 6 -->
-      <article class="swiper-slide">
-        <img src="../images/product6.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
-        <h3 class="CategoryName">category 6</h3>
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
-    </div>
+            <!-- Slide 5 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product5.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
+              <h3 class="CategoryName">category 5</h3>
+              <a href="#" class="contact"
+                >Browse Products <i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-    <!-- Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
-</section>
+            <!-- Slide 6 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product6.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
+              <h3 class="CategoryName">category 6</h3>
+              <a href="#" class="contact"
+                >Browse Products <i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
+          </div>
 
-       <section class="whoWe">
-      <div class="container">
-        <article class="whoWeImg" data-aos="fade-left">
-          <img src="../images/logoBrownBg.png" alt="logo" />
-        </article>
-        <article class="heroIntro" data-aos="fade-right" data-aos-delay="300">
-          <h2>About Us</h2>
-          <p>
-            Our journey began in 2019, and since then we have grown to three thriving branches dedicated to providing the best experience for our customers in the world of sweets and fresh baked goods. We take pride in offering a diverse and distinguished range of delicious products that combine great taste and high quality! We pay attention to every detail from preparation to presentation and sale, ensuring a unique and exceptional experience beyond expectations.
-          </p>
-          <a href="#" class="contact">Read More <i class="fa-solid fa-arrow-left"></i></a>
-        </article>
-      </div>
-    </section>
-<section class="categories categoryOption">
-  <h2 class="intro" data-aos="fade-up" data-aos-delay="300">First Category</h2>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
-  <div class="container swiper categorySwiper">
-    <div class="swiper-wrapper">
-      <!-- Slide 1 -->
-      <article class="swiper-slide">
-        <img src="../images/product1.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+      <section class="whoWe">
+        <div class="container">
+          <article class="whoWeImg" data-aos="fade-left">
+            <img src="../images/logoBrownBg.png" alt="logo" />
+          </article>
+          <article class="heroIntro" data-aos="fade-right" data-aos-delay="300">
+            <h2>About Us</h2>
+            <p>
+              Our journey began in 2019, and since then we have grown to three
+              thriving branches dedicated to providing the best experience for
+              our customers in the world of sweets and fresh baked goods. We
+              take pride in offering a diverse and distinguished range of
+              delicious products that combine great taste and high quality! We
+              pay attention to every detail from preparation to presentation and
+              sale, ensuring a unique and exceptional experience beyond
+              expectations.
+            </p>
+            <a href="#" class="contact"
+              >Read More <i class="fa-solid fa-arrow-left"></i
+            ></a>
+          </article>
+        </div>
+      </section>
+      <section class="categories categoryOption">
+        <h2 class="intro" data-aos="fade-up" data-aos-delay="300">
+          First Category
+        </h2>
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+        <div class="container swiper categorySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product1.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-      <!-- Slide 2 -->
-      <article class="swiper-slide">
-        <img src="../images/product2.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+            <!-- Slide 2 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product2.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-      <!-- Slide 3 -->
-      <article class="swiper-slide">
-        <img src="../images/product3.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+            <!-- Slide 3 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product3.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-      <!-- Slide 4 -->
-      <article class="swiper-slide">
-        <img src="../images/product4.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+            <!-- Slide 4 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product4.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-      <!-- Slide 5 -->
-      <article class="swiper-slide">
-        <img src="../images/product5.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+            <!-- Slide 5 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product5.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-      <!-- Slide 6 -->
-      <article class="swiper-slide">
-        <img src="../images/product6.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
-    </div>
+            <!-- Slide 6 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product6.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-    <!-- Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
-</section>
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
+          </div>
 
-<section class="categories categoryOption">
-  <h2 class="intro" data-aos="fade-up" data-aos-delay="300">Second Category</h2>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
-  <div class="container swiper categorySwiper">
-    <div class="swiper-wrapper">
-      <!-- Slide 1 -->
-      <article class="swiper-slide">
-        <img src="../images/product1.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+      <section class="categories categoryOption">
+        <h2 class="intro" data-aos="fade-up" data-aos-delay="300">
+          Second Category
+        </h2>
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+        <div class="container swiper categorySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+              <article class="swiper-slide">
+              <img
+                src="../images/heroImg.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-      <!-- Slide 2 -->
-      <article class="swiper-slide">
-        <img src="../images/product2.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
+            <article class="swiper-slide">
+              <img
+                src="../images/product1.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-      <!-- Slide 3 -->
-      <article class="swiper-slide">
-        <img src="../images/product3.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+            <!-- Slide 2 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product2.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-      <!-- Slide 4 -->
-      <article class="swiper-slide">
-        <img src="../images/product4.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+            <!-- Slide 3 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product3.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-      <!-- Slide 5 -->
-      <article class="swiper-slide">
-        <img src="../images/product5.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+            <!-- Slide 4 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product4.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-      <!-- Slide 6 -->
-      <article class="swiper-slide">
-        <img src="../images/product6.png" alt="product image" data-aos="zoom-in-up" data-aos-delay="200">
+            <!-- Slide 5 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product5.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-        <a href="#" class="contact">Browse Products <i class="fa-solid fa-arrow-left"></i></a>
-      </article>
-    </div>
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
 
-    <!-- Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
-</section>
+            <!-- Slide 6 -->
+            <article class="swiper-slide">
+              <img
+                src="../images/product6.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
+          </div>
 
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
-    <footer>
-  <div class="container">
-    <article data-aos="fade-up">
-      <img src="../images/logo.png" alt="Logo" />
-    </article>
+      <footer>
+        <div class="container">
+           <article class="swiper-slide">
+              <img
+                src="../images/product1.png"
+                alt="product image"
+                data-aos="zoom-in-up"
+                data-aos-delay="200"
+              />
 
-    <article data-aos="fade-up" data-aos-delay="200">
-      <h3>Important Links</h3>
-      <ul>
-        <li>
-          <a href="#">
-            <span class="bullet"></span>
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="bullet"></span>
-            About Us
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="bullet"></span>
-            Our Products
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="bullet"></span>
-            Fornji Catalog
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="bullet"></span>
-            Contact Us
-          </a>
-        </li>
-      </ul>
-    </article>
+              <a href="#" class="contact"
+                >Product Name<i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </article>
+          <article data-aos="fade-up">
+            <img src="../images/logo.png" alt="Logo" />
+          </article>
 
-    <article data-aos="fade-up" data-aos-delay="300">
-      <h3>Contact Us</h3>
-      <ul>
-        <li>
-          <a href="#">
-            <span class="contactIcon"><i class="fa-solid fa-location-dot"></i></span>
-            Khalda - Saudi Hospital
-          </a>
-        </li>
-        <li>
-          <a href="tel:+0789651800">
-            <span class="contactIcon"><i class="fa-solid fa-phone-volume"></i></span>
-            <span dir="ltr">0789651800</span>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:info@fornji.com">
-            <span class="contactIcon"><i class="fa-solid fa-envelope"></i></span>
-            info@fornji.com
-          </a>
-        </li>
-        <li class="socials">
-          <a href="#" class="contactIcon"><i class="fa-brands fa-whatsapp"></i></a>
-          <a href="#" class="contactIcon"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#" class="contactIcon"><i class="fa-brands fa-facebook-f"></i></a>
-        </li>
-      </ul>
-    </article>
-  </div>
-</footer>
+          <article data-aos="fade-up" data-aos-delay="200">
+            <h3>Important Links</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="bullet"></span>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="bullet"></span>
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="bullet"></span>
+                  Our Products
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="bullet"></span>
+                  Fornji Catalog
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="bullet"></span>
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </article>
 
-  </main>
-</body>
-<!-- 1. Third-party libraries (that don’t depend on your code) -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<!-- 2. Lenis (module must come before your script if you use it inside) -->
-<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
-<script>
-  const lenis = new Lenis({
-    duration: 1.5, // close to native (default ~0.4–0.5)
-    smooth: true,
-    lerp: 0.5, // very small easing factor (0.05–0.1 is subtle)
-  });
+          <article data-aos="fade-up" data-aos-delay="300">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="contactIcon"
+                    ><i class="fa-solid fa-location-dot"></i
+                  ></span>
+                  Khalda - Saudi Hospital
+                </a>
+              </li>
+              <li>
+                <a href="tel:+0789651800">
+                  <span class="contactIcon"
+                    ><i class="fa-solid fa-phone-volume"></i
+                  ></span>
+                  <span dir="ltr">0789651800</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@fornji.com">
+                  <span class="contactIcon"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></span>
+                  info@fornji.com
+                </a>
+              </li>
+              <li class="socials">
+                <a href="#" class="contactIcon"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+                <a href="#" class="contactIcon"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="#" class="contactIcon"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <!-- 1. Third-party libraries (that don’t depend on your code) -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- 2. Lenis (module must come before your script if you use it inside) -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+  <script>
+    const lenis = new Lenis({
+      duration: 1.5, // close to native (default ~0.4–0.5)
+      smooth: true,
+      lerp: 0.5, // very small easing factor (0.05–0.1 is subtle)
+    });
 
-  function raf(time) {
-    lenis.raf(time);
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
     requestAnimationFrame(raf);
-  }
-  requestAnimationFrame(raf);
-</script>
-<!-- 3. Your own scripts (that depend on libs being loaded) -->
-<script src="../js/swiper.js"></script>
-<script src="../js/script.js" defer></script>
+  </script>
+  <!-- 3. Your own scripts (that depend on libs being loaded) -->
+  <script src="../js/swiper.js"></script>
+  <script src="../js/script.js" defer></script>
 
-<!-- 4. Init AOS after everything -->
-<script>
-  AOS.init({
-    duration: 1000,
-    once: false,
-  });
-</script>
-
+  <!-- 4. Init AOS after everything -->
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+  </script>
 </html>

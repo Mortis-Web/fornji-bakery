@@ -17,7 +17,7 @@ swiperEls.forEach((el) => {
       1280: { slidesPerView: 5 },
       1024: { slidesPerView: 4 },
       768: { slidesPerView: 3 },
-      480: { slidesPerView: 2 },
+      350: { slidesPerView: 2 },
       0: { slidesPerView: 1 },
     },
   });
