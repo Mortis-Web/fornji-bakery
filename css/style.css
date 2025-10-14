@@ -242,6 +242,11 @@ nav button {
 .contact {
   background: var(--secondary-color);
   padding: 0.5rem 2rem;
+  max-width: 200px !important;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: fit-content;
   border-radius: 0.9rem;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.075);
@@ -336,9 +341,8 @@ li#lang {
 }
 .swiper-slide {
   height: auto;
-  img{
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-
+  img {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -516,10 +520,6 @@ section.categories.categoryOption {
   .contact {
     position: absolute;
     bottom: 10px;
-    width: 90%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     left: 0;
     right: 0;
     margin: auto;
