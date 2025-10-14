@@ -856,18 +856,13 @@ main.innerPage {
   .whoWe .container article {
     min-width: 250px !important;
   }
-  .categories .container article img {
-    border-radius: 3rem !important;
+  .categories:not(.categoryOption) .container article img {
+    border-radius: 2.5rem !important;
   }
   .CategoryName {
     font-size: 1.25rem;
   }
   .swiper .contact {
-    font-size: 0.6rem;
-  }
-}
-@media (max-width: 350px) {
-  .swiper .contact {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
 }
