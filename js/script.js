@@ -23,11 +23,7 @@ document.addEventListener("click", () => {
   langChanger.classList.add("hide_lang_changer");
 });
 
-// services
-servicesHolder.addEventListener("click", (e) => {
-  e.stopPropagation();
-  allServices.classList.toggle("hide_lang_changer");
-});
+
 
 const menu = document.querySelector("#menu");
 const dropdown = document.querySelector("#navigation_dropdown");
