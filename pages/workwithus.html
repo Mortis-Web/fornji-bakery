@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مخبز فورنجي - للحلويات والمعجنات الشهية </title>
+
+  <link rel="icon"
+  href="https://raw.githubusercontent.com/Mortis-Web/fornji-bakery/refs/heads/main/images/logo.png?token=GHSAT0AAAAAADG5KNFKQUNQJAAQQSRYHS5Y2HNPXEA"
+    type="image/x-icon" />
+
+  <!-- Open Graph (Facebook / LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ar_AR" />
+  <meta property="og:title" content="فورنجي المخبز - للحلويات والمعجنات الشهية" />
+  <meta property="og:image" content="../assets/logo.png" />
+  <meta property="og:description"
+    content="استمتع بأشهى الحلويات والمعجنات الطازجة من فورنجي المخبز. جودة عالية، نكهة مميزة، وسحر المخبوزات الأصلية." />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="فورنجي المخبز - للحلويات والمعجنات الشهية" />
+  <meta name="twitter:image" content="../assets/logo.png" />
+  <meta name="twitter:description"
+    content="نكهات لا تُقاوم من فورنجي المخبز — الحلويات والمعجنات التي تعشقها منذ أول لقمة!" />
+
+  <!-- CSS Libraries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <!-- Project Styles -->
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <main class="innerPage">
+    <nav data-aos="fade-down" data-aos-delay="300">
+      <div class="container">
+        <a href="../index.html"><img src="../images/logo.png" alt="logo" class="logo" /></a>
+        <ul>
+          <span class="main_Links">
+            <li class=" navLink" ">
+                <a href=" ../index.html">
+
+              الرئيسية
+              </a>
+            </li>
+
+            <li class="navLink ">
+              <a href="./whoWe.html">
+
+
+                من نحن
+              </a>
+            </li>
+
+            <li class="navLink ">
+              <a href="./products.html">
+
+                منتجاتنا
+              </a>
+            </li>
+            <li class="navLink">
+              <a href="../FORNAJI CATALOGUE.pdf" download>
+                كاتلوج فورنجي
+              </a>
+            </li>
+            <li class="navLink">
+              <a href="./contactus.html">
+                تواصل معنا
+              </a>
+            </li>
+          </span>
+          <li id="lang">
+                  <div id="lang_changer" class="hide_lang_changer">
+                    <a href="../en/pages/workwithus.html" class="langs">الإنجليزية
+                      <!-- <img src="../images/usa.png" alt="USA" class="en" /> -->
+                    </a>
+                    <a href="./workwithus.html" class="langs">العربية
+                      <!-- <span><img src="../images/jordan.png" alt="ar" /></span> -->
+                    </a>
+                  </div>
+
+                  <span>
+
+                  </span>
+                  <span id="active_lang">
+                    <!-- <img src="../images/jordan.png" alt="jordan">  -->
+                    العربية <svg width="10" height="15"
+                      viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M9.18164 2.56055L4.24219 7.5L9.18164 12.4395L7.06055 14.5605L0 7.5L7.06055 0.439453L9.18164 2.56055Z"
+                        fill="white" />
+                    </svg>
+                  </span>
+                </li>
+                <li id="menu">
+                  <i class="fa-solid fa-bars"></i>
+                </li>
+      </ul>
+
+      <button class="contact active"><a href="./workwithus.html">احصل علي وظيفة</a></button>
+
+      </div>
+      <div id="navigation_dropdown">
+        <ul class="container">
+          <span class="main_Links">
+            <li class=" navLink">
+              <a href="../index.html">
+
+                الرئيسية
+              </a>
+            </li>
+
+            <li class="navLink ">
+              <a href="./whoWe.html">
+
+من نحن              </a>
+            </li>
+
+            <li class="navLink " id="menuDropDownHolder">
+              <!-- Services -->
+              <a href="./products.html">
+
+منتجاتنا              </a>
+            </li>
+            <li class="navLink">
+              <a href="../FORNAJI CATALOGUE.pdf" download>
+
+              كاتلوج فورنجي
+              </a>
+            </li>
+            <li class="navLink">
+              <a href="./contactus.html">
+                <!-- Doctors -->
+
+تواصل معنا              </a>
+            </li>
+            <li class="active"><a href="./workwithus.html">احصل علي وظيفة</a></li>
+
+          </span>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <div class="heroOverlay"><img src="../images/workwithus.jpeg" alt="contact us banner" data-aos="fade-down" data-aos-delay="200"></div>
+  <h1 class="intro" data-aos="fade-up" data-aos-delay="200">قسم التوظيف </h1>
+    </header>
+
+     <section   id="jobSection">
+      <h2 class="intro" data-aos="fade-up">احصل علي فرصة العمل معنا</h2>
+      <div class="container">
+        <form action="#" id="applyForJob" >
+        <h3 data-aos="fade-up" data-aos-delay="300">المعلومات الشخصية:</h3>
+        <div id="perosnalDataFields">
+                    <div class="inputHolder" data-aos="fade-up">
+            <label for="name">الأسم الكامل :</label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="الأسم الكامل" required/>
+          </div>
+          <div class="inputHolder" data-aos="fade-up">
+              <label for="phone">رقم الهاتف :</label>
+              <input type="tel" id="phone" name="phone" autocomplete="cc-number" placeholder="رقم الهاتف" required/>
+            </div>
+            <div class="inputHolder" data-aos="fade-up">
+              <label for="address">العنوان  :</label>
+              <input type="text" id="address" name="address" autocomplete="address" placeholder="العنوان " required/>
+            </div>
+             <div class="inputHolder" data-aos="fade-up">
+              <label for="date">	تاريخ الميلاد:</label>
+              <input type="text" id="date" name="birthday" autocomplete="birthday" placeholder="تاريخ الميلاد" required/>
+             </div>
+
+
+    <div class="inputHolder" data-aos="fade-up">
+  <label for="nationality">الجنسية:</label>
+  <select id="nationality" name="nationality" required>
+    <option value="" disabled selected>اختر الجنسية</option>
+    <option value="سعودي">سعودي</option>
+    <option value="أردني">أردني</option>
+    <option value="إماراتي">إماراتي</option>
+    <option value="كويتي">كويتي</option>
+    <option value="قطري">قطري</option>
+    <option value="بحريني">بحريني</option>
+    <option value="عُماني">عُماني</option>
+    <option value="يمني">يمني</option>
+    <option value="مصري">مصري</option>
+    <option value="عراقي">عراقي</option>
+    <option value="سوري">سوري</option>
+    <option value="لبناني">لبناني</option>
+    <option value="فلسطيني">فلسطيني</option>
+    <option value="ليبي">ليبي</option>
+    <option value="سوداني">سوداني</option>
+    <option value="تونسي">تونسي</option>
+    <option value="جزائري">جزائري</option>
+    <option value="مغربي">مغربي</option>
+  </select>
+</div>
+
+            <div class="inputHolder" data-aos="fade-up">
+  <label for="job">	الوظيفة المطلوبة:</label>
+  <select id="job" name="job" required>
+    <option value="" disabled selected>اختر الوظيفة</option>
+    <option value="خباز">خباز</option>
+    <option value="مساعد خباز">مساعد خباز</option>
+    <option value="بائع">بائع</option>
+    <option value="كاشير">كاشير</option>
+    <option value="أخرى">أخرى</option>
+  </select>
+        </div>
+
+        <div class="inputHolder" data-aos="fade-up">
+            <label>	نوع الدوام: </label>
+
+        <div class="gender-selection">
+  <div class="gender-option" data-gender="fullTime">
+    <label for="fullTime">كامل </label>
+    <input type="radio" name="gender" id="fullTime" value="fullTime" required/>
+  </div>
+
+  <div class="gender-option" data-gender="partTime">
+    <label for="partTime">جزئي  </label>
+    <input type="radio" name="gender" id="partTime" value="partTime" />
+  </div>
+</div>
+        </div>
+
+
+        </div>
+
+          <button type="submit" class="contact">
+           ارسال
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <article data-aos="fade-up">
+          <img src="../images/logo.png" alt="Logo" />
+
+        </article>
+
+        <article data-aos="fade-up" data-aos-delay="200">
+          <h3>روابط مهمة</h3>
+          <ul>
+            <li>
+              <a href="../index.html">
+                <span class="bullet"></i></span>
+                الرئيسية
+              </a>
+            </li>
+            <li>
+              <a href="./whoWe.html">
+                <span class="bullet"></i></span>
+                من نحن
+              </a>
+            </li>
+            <li>
+              <a href="./products.html">
+                <span class="bullet"></i></span>
+                منتجاتنا
+              </a>
+            </li>
+            <li>
+              <a href="./FORNAJI CATALOGUE.pdf" download>
+                <span class="bullet"></i></span>
+                كاتلوج فورنجي
+              </a>
+            </li>
+            <li>
+              <a href="./contactus.html">
+                <span class="bullet"></i></span>
+                تواصل معنا
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article data-aos="fade-up" data-aos-delay="300">
+          <h3>تواصل معنا</h3>
+            <ul>
+            <li>
+
+            </li>
+            <li>
+              <a href="tel:+0791008710">
+                <span class="contactIcon"><i class="fa-solid fa-phone-volume"></i></span>
+                <span dir="ltr">0791008710 - خلدا </span>
+              </a>
+            </li>
+             <li>
+              <a href="tel:+0791008710">
+                <span class="contactIcon"><i class="fa-solid fa-phone-volume"></i></span>
+                <span dir="ltr">0791008710 - المدينة المنورة</span>
+              </a>
+            </li>
+             <li>
+              <a href="tel:+0791008710">
+                <span class="contactIcon"><i class="fa-solid fa-phone-volume"></i></span>
+                <span dir="ltr">0791008710 - الجاردنز </span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@drraadaljundi.com">
+                <span class="contactIcon"><i class="fa-solid fa-envelope"></i></span>
+               info@fornagibakery.com </a>
+            </li>
+            <li class="socials">
+              <a href="#" class="contactIcon"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#" class="contactIcon"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="contactIcon"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+          </ul>
+        </article>
+
+
+      </div>
+    </footer>
+  </main>
+</body>
+<!-- 1. Third-party libraries (that don’t depend on your code) -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<!-- 2. Lenis (module must come before your script if you use it inside) -->
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+  const lenis = new Lenis({
+    duration: 1.5, // close to native (default ~0.4–0.5)
+    smooth: true,
+    lerp: 0.5, // very small easing factor (0.05–0.1 is subtle)
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+</script>
+<!-- 3. Your own scripts (that depend on libs being loaded) -->
+<script src="../js/swiper.js"></script>
+<script src="../js/script.js" defer></script>
+<script src="../js/workWithUs.js" defer></script>
+<script>
+  flatpickr("#date", {
+    dateFormat: "Y-m-d"
+  });
+</script>
+
+<!-- 4. Init AOS after everything -->
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+</html>

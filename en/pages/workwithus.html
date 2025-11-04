@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fornji Bakery - Delicious Sweets and Pastries</title>
+
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/Mortis-Web/fornji-bakery/refs/heads/main/images/logo.png?token=GHSAT0AAAAAADG5KNFKQUNQJAAQQSRYHS5Y2HNPXEA"
+        type="image/x-icon" />
+
+    <!-- Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Fornji Bakery - Delicious Sweets and Pastries" />
+    <meta property="og:image" content="./assets/logo.png" />
+    <meta property="og:description"
+        content="Enjoy the most delicious sweets and fresh pastries from Fornji Bakery. High quality, unique taste, and original baked goods magic." />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fornji Bakery - Delicious Sweets and Pastries" />
+    <meta name="twitter:image" content="./assets/logo.png" />
+    <meta name="twitter:description"
+        content="Irresistible flavors from Fornji Bakery — sweets and pastries you'll love from the first bite!" />
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+
+    <!-- Project Styles -->
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+</head>
+
+<body dir="ltr">
+    <main class="innerPage">
+        <nav data-aos="fade-down" data-aos-delay="300">
+            <div class="container">
+                <a href="../index.html"><img src="../../images/logo.png" alt="logo" class="logo" /></a>
+                <ul>
+                    <span class="main_Links">
+                        <li class=" navLink">
+                            <a href="../index.html"> Home </a>
+                        </li>
+
+                        <li class="navLink ">
+                            <a href="./whoWe.html"> About Us </a>
+                        </li>
+
+                        <li class="navLink">
+                            <a href="./products.html"> Products </a>
+                        </li>
+                        <li class="navLink">
+                            <a href="../../FORNAJI CATALOGUE.pdf" download> Fornji Catalog </a>
+                        </li>
+                        <li class="navLink">
+                            <a href="./contactus.html"> Contact Us </a>
+                        </li>
+                    </span>
+                           <li id="lang">
+                        <div id="lang_changer" class="hide_lang_changer">
+                            <a href="./workwithus.html" class="langs">English
+                                <!-- <img src="../../images/usa.png" alt="USA" class="en" /> -->
+                            </a>
+                            <a href="../../pages/workwithus.html" class="langs">Arabic
+                                <!-- <span><img src="../../images/jordan.png" alt="ar" /></span> -->
+                            </a>
+                        </div>
+
+                        <span>
+                            <span id="active_lang">
+                                <!-- <img src="../../images/usa.png" alt="jordan" /> -->
+                                English
+                                <svg width="10" height="15" viewBox="0 0 10 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.18164 2.56055L4.24219 7.5L9.18164 12.4395L7.06055 14.5605L0 7.5L7.06055 0.439453L9.18164 2.56055Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                        </span>
+                    </li>
+                    <li id="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </li>
+                </ul>
+                <button class="contact active">
+                    <a href="./workwithus.html">Work With Us</a>
+                </button>
+
+            </div>
+            <div id="navigation_dropdown">
+                <ul class="container">
+                    <span class="main_Links">
+                        <li class=" navLink">
+                            <a href="../index.html"> Home </a>
+                        </li>
+
+                        <li class="navLink ">
+                            <a href="./whoWe.html"> About Us </a>
+                        </li>
+
+                        <li class="navLink" id="menuDropDownHolder">
+                            <a href="./products.html"> Products </a>
+                        </li>
+                        <li class="navLink">
+                            <a href="../../FORNAJI CATALOGUE.pdf" download> Fornji Catalog </a>
+                        </li>
+                        <li class="navLink">
+                            <a href="./contactus.html"> Contact Us </a>
+                        </li>
+                        <li class="active">
+            <a href="./workwithus.html">Work With Us</a>
+
+                        </li>
+                    </span>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <div class="heroOverlay">
+                <img src="../../images/workwithus.jpeg" alt="who we image" data-aos="fade-up" data-aos-delay="200" />
+            </div>
+            <h2 class="intro" data-aos="fade-up" data-aos-delay="300">
+                Employing Department
+            </h2>
+
+        </header>
+        <section id="jobSection">
+            <h2 class="intro" data-aos="fade-up">Get a Job Opportunity with Us</h2>
+            <div class="container">
+                <form action="#" id="applyForJob">
+                    <h3 data-aos="fade-up" data-aos-delay="300">Personal Information:</h3>
+                    <div id="perosnalDataFields">
+                        <div class="inputHolder" data-aos="fade-up">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" autocomplete="name" placeholder="Full Name"
+                                required />
+                        </div>
+                        <div class="inputHolder" data-aos="fade-up">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" autocomplete="cc-number"
+                                placeholder="Phone Number" required />
+                        </div>
+                        <div class="inputHolder" data-aos="fade-up">
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" autocomplete="address" placeholder="Address"
+                                required />
+                        </div>
+                        <div class="inputHolder" data-aos="fade-up">
+                            <label for="date">Date of Birth:</label>
+                            <input type="text" id="date" name="birthday" autocomplete="birthday"
+                                placeholder="Date of Birth" required />
+                        </div>
+
+                        <div class="inputHolder" data-aos="fade-up">
+                            <label for="nationality">Nationality:</label>
+                            <select id="nationality" name="nationality" required>
+                                <option value="" disabled selected>Select Nationality</option>
+                                <option value="Saudi">Saudi</option>
+                                <option value="Jordanian">Jordanian</option>
+                                <option value="Emirati">Emirati</option>
+                                <option value="Kuwaiti">Kuwaiti</option>
+                                <option value="Qatari">Qatari</option>
+                                <option value="Bahraini">Bahraini</option>
+                                <option value="Omani">Omani</option>
+                                <option value="Yemeni">Yemeni</option>
+                                <option value="Egyptian">Egyptian</option>
+                                <option value="Iraqi">Iraqi</option>
+                                <option value="Syrian">Syrian</option>
+                                <option value="Lebanese">Lebanese</option>
+                                <option value="Palestinian">Palestinian</option>
+                                <option value="Libyan">Libyan</option>
+                                <option value="Sudanese">Sudanese</option>
+                                <option value="Tunisian">Tunisian</option>
+                                <option value="Algerian">Algerian</option>
+                                <option value="Moroccan">Moroccan</option>
+                            </select>
+                        </div>
+
+                        <div class="inputHolder" data-aos="fade-up">
+                            <label for="job">Desired Position:</label>
+                            <select id="job" name="job" required>
+                                <option value="" disabled selected>Select Job</option>
+                                <option value="Baker">Baker</option>
+                                <option value="Assistant Baker">Assistant Baker</option>
+                                <option value="Salesperson">Salesperson</option>
+                                <option value="Cashier">Cashier</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="inputHolder" data-aos="fade-up">
+                            <label>Work Type:</label>
+                            <div class="gender-selection">
+                                <div class="gender-option" data-gender="fullTime">
+                                    <label for="fullTime">Full-Time</label>
+                                    <input type="radio" name="gender" id="fullTime" value="fullTime" required />
+                                </div>
+
+                                <div class="gender-option" data-gender="partTime">
+                                    <label for="partTime">Part-Time</label>
+                                    <input type="radio" name="gender" id="partTime" value="partTime" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="contact">Send</button>
+                </form>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="container">
+
+                <article data-aos="fade-up">
+                    <img src="../../images/logo.png" alt="Logo" />
+                </article>
+
+                <article data-aos="fade-up" data-aos-delay="200">
+                    <h3>Important Links</h3>
+                    <ul>
+                        <li>
+                            <a href="../index.html">
+                                <span class="bullet"></span>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./whoWe.html">
+                                <span class="bullet"></span>
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./products.html">
+                                <span class="bullet"></span>
+                                Our Products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../FORNAJI CATALOGUE.pdf" download>
+                                <span class="bullet"></span>
+                                Fornji Catalog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./contactus.html">
+                                <span class="bullet"></span>
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article data-aos="fade-up" data-aos-delay="300">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li></li>
+
+                        <li>
+                            <a href="tel:+0791008710">
+                                <span class="contactIcon"><i class="fa-solid fa-phone-volume"></i></span>
+                                <span dir="ltr">0791008710 - Khalda</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="tel:+0791008710">
+                                <span class="contactIcon"><i class="fa-solid fa-phone-volume"></i></span>
+                                <span dir="ltr">0791008710 - Al Madinah Al Munawarah</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="tel:+0791008710">
+                                <span class="contactIcon"><i class="fa-solid fa-phone-volume"></i></span>
+                                <span dir="ltr">0791008710 - Gardens</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:info@drraadaljundi.com">
+                                <span class="contactIcon"><i class="fa-solid fa-envelope"></i></span>
+                                info@fornagibakery.com
+                            </a>
+                        </li>
+
+                        <li class="socials">
+                            <a href="#" class="contactIcon"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#" class="contactIcon"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="contactIcon"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                    </ul>
+
+                </article>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<!-- 2. Lenis (module must come before your script if you use it inside) -->
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    const lenis = new Lenis({
+        duration: 1.5, // close to native (default ~0.4–0.5)
+        smooth: true,
+        lerp: 0.5, // very small easing factor (0.05–0.1 is subtle)
+    });
+
+    function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+</script>
+<!-- 3. Your own scripts (that depend on libs being loaded) -->
+<script src="../../js/swiper.js"></script>
+<script src="../../js/script.js" defer></script>
+<script src="../../js/workWithUs.js" defer></script>
+<script>
+    flatpickr("#date", {
+        dateFormat: "Y-m-d"
+    });
+</script>
+
+<!-- 4. Init AOS after everything -->
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+    });
+</script>
+
+</html>
