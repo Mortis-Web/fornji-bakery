@@ -1098,6 +1098,7 @@ main.innerPage {
     margin-top: 6rem;
     font-size: Clamp(2.5rem, calc(4vw + 1rem), 4rem);
     line-height: 1;
+    text-wrap: balance;
   }
 
   header {
