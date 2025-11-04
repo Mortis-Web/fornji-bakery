@@ -96,7 +96,7 @@ body[dir="ltr"] {
 
   @media (max-width: 480px) {
     #lang_changer {
-      left: -30px;
+      left: -60px;
     }
   }
 }
