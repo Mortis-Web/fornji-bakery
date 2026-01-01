@@ -1189,8 +1189,7 @@ main.innerPage {
 .imagePopup{
   width: auto;
   height: 100%;
-  max-width: 900px;
-  min-width: 300px;
+  max-width: 1140px;
   display: flex;
   position: relative;
   transition: 0.5s all ease;
@@ -1199,7 +1198,7 @@ main.innerPage {
   justify-content: center;
   align-items: center;
   scale: 0.75;
-  gap: 2rem;
+  gap: 1rem;
   .contact{
     background-color: var(--darker-primary-color);
     i{
